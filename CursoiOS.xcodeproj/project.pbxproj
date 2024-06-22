@@ -17,12 +17,18 @@
 		D235D98E2C22B8D7000A2F4F /* IMCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D235D98D2C22B8D7000A2F4F /* IMCView.swift */; };
 		D235D9902C22B8E4000A2F4F /* IMCResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D235D98F2C22B8E4000A2F4F /* IMCResultView.swift */; };
 		D235D9922C22BDD4000A2F4F /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D235D9912C22BDD4000A2F4F /* ToggleButton.swift */; };
+		D261FA562C249ECE000241D8 /* ListComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261FA552C249ECE000241D8 /* ListComponent.swift */; };
+		D261FA592C24A3D6000241D8 /* SuperheroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261FA582C24A3D6000241D8 /* SuperheroView.swift */; };
+		D27B51802C24EC98009DE0FA /* SuperheroApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27B517F2C24EC98009DE0FA /* SuperheroApi.swift */; };
+		D27B51822C24F2CF009DE0FA /* SuperheroItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27B51812C24F2CF009DE0FA /* SuperheroItem.swift */; };
 		D2A6E4AE2C235C4B00E3034A /* HeightCalculatorComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6E4AD2C235C4A00E3034A /* HeightCalculatorComponent.swift */; };
 		D2ACADC82C223B630097D826 /* ImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ACADC72C223B630097D826 /* ImageComponent.swift */; };
 		D2ACADCA2C2252650097D826 /* LabelComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ACADC92C2252650097D826 /* LabelComponent.swift */; };
 		D2ACADCC2C2253C40097D826 /* ButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ACADCB2C2253C40097D826 /* ButtonComponent.swift */; };
 		D2ACADCE2C2266640097D826 /* ButtonStateComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ACADCD2C2266640097D826 /* ButtonStateComponent.swift */; };
 		D2ACADD02C2267D60097D826 /* TextFieldComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ACADCF2C2267D60097D826 /* TextFieldComponent.swift */; };
+		D2BFC3A92C251AEF00972BED /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = D2BFC3A82C251AEF00972BED /* SDWebImageSwiftUI */; };
+		D2BFC3AB2C25247F00972BED /* SuperheroDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFC3AA2C25247F00972BED /* SuperheroDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,12 +43,17 @@
 		D235D98D2C22B8D7000A2F4F /* IMCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCView.swift; sourceTree = "<group>"; };
 		D235D98F2C22B8E4000A2F4F /* IMCResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCResultView.swift; sourceTree = "<group>"; };
 		D235D9912C22BDD4000A2F4F /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		D261FA552C249ECE000241D8 /* ListComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListComponent.swift; sourceTree = "<group>"; };
+		D261FA582C24A3D6000241D8 /* SuperheroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroView.swift; sourceTree = "<group>"; };
+		D27B517F2C24EC98009DE0FA /* SuperheroApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroApi.swift; sourceTree = "<group>"; };
+		D27B51812C24F2CF009DE0FA /* SuperheroItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroItem.swift; sourceTree = "<group>"; };
 		D2A6E4AD2C235C4A00E3034A /* HeightCalculatorComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightCalculatorComponent.swift; sourceTree = "<group>"; };
 		D2ACADC72C223B630097D826 /* ImageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageComponent.swift; sourceTree = "<group>"; };
 		D2ACADC92C2252650097D826 /* LabelComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelComponent.swift; sourceTree = "<group>"; };
 		D2ACADCB2C2253C40097D826 /* ButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComponent.swift; sourceTree = "<group>"; };
 		D2ACADCD2C2266640097D826 /* ButtonStateComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStateComponent.swift; sourceTree = "<group>"; };
 		D2ACADCF2C2267D60097D826 /* TextFieldComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldComponent.swift; sourceTree = "<group>"; };
+		D2BFC3AA2C25247F00972BED /* SuperheroDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2BFC3A92C251AEF00972BED /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +110,7 @@
 			children = (
 				D235D98C2C22B8B4000A2F4F /* Examples */,
 				D235D98B2C22B882000A2F4F /* IMC */,
+				D261FA572C24A3BF000241D8 /* Superhero */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -114,6 +127,8 @@
 				D235D9892C22AD45000A2F4F /* NavComponent.swift */,
 				D235D9912C22BDD4000A2F4F /* ToggleButton.swift */,
 				D2A6E4AD2C235C4A00E3034A /* HeightCalculatorComponent.swift */,
+				D261FA552C249ECE000241D8 /* ListComponent.swift */,
+				D27B51812C24F2CF009DE0FA /* SuperheroItem.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -135,6 +150,16 @@
 			path = Examples;
 			sourceTree = "<group>";
 		};
+		D261FA572C24A3BF000241D8 /* Superhero */ = {
+			isa = PBXGroup;
+			children = (
+				D261FA582C24A3D6000241D8 /* SuperheroView.swift */,
+				D27B517F2C24EC98009DE0FA /* SuperheroApi.swift */,
+				D2BFC3AA2C25247F00972BED /* SuperheroDetailView.swift */,
+			);
+			path = Superhero;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,6 +176,9 @@
 			dependencies = (
 			);
 			name = CursoiOS;
+			packageProductDependencies = (
+				D2BFC3A82C251AEF00972BED /* SDWebImageSwiftUI */,
+			);
 			productName = CursoiOS;
 			productReference = D21629BF2C220BF3009846F5 /* CursoiOS.app */;
 			productType = "com.apple.product-type.application";
@@ -179,6 +207,9 @@
 				Base,
 			);
 			mainGroup = D21629B62C220BF3009846F5;
+			packageReferences = (
+				D2BFC3A72C251AEF00972BED /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = D21629C02C220BF3009846F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -211,12 +242,17 @@
 				D2ACADD02C2267D60097D826 /* TextFieldComponent.swift in Sources */,
 				D235D9922C22BDD4000A2F4F /* ToggleButton.swift in Sources */,
 				D21629C52C220BF3009846F5 /* ContentView.swift in Sources */,
+				D261FA592C24A3D6000241D8 /* SuperheroView.swift in Sources */,
 				D235D98A2C22AD45000A2F4F /* NavComponent.swift in Sources */,
 				D235D9902C22B8E4000A2F4F /* IMCResultView.swift in Sources */,
+				D261FA562C249ECE000241D8 /* ListComponent.swift in Sources */,
 				D235D98E2C22B8D7000A2F4F /* IMCView.swift in Sources */,
 				D2ACADC82C223B630097D826 /* ImageComponent.swift in Sources */,
 				D2ACADCE2C2266640097D826 /* ButtonStateComponent.swift in Sources */,
 				D21629D22C2223EA009846F5 /* ExampleOne.swift in Sources */,
+				D27B51822C24F2CF009DE0FA /* SuperheroItem.swift in Sources */,
+				D27B51802C24EC98009DE0FA /* SuperheroApi.swift in Sources */,
+				D2BFC3AB2C25247F00972BED /* SuperheroDetailView.swift in Sources */,
 				D21629C32C220BF3009846F5 /* CursoiOSApp.swift in Sources */,
 				D2ACADCC2C2253C40097D826 /* ButtonComponent.swift in Sources */,
 			);
@@ -424,6 +460,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D2BFC3A72C251AEF00972BED /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D2BFC3A82C251AEF00972BED /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D2BFC3A72C251AEF00972BED /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D21629B72C220BF3009846F5 /* Project object */;
 }
